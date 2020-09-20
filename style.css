@@ -1,0 +1,71 @@
+/*adds background color to whole webpage*/
+body{
+  background-color: rgb(236, 196, 203);
+  margin: 0px;
+}
+
+/*styles header and footer background*/
+header, footer{
+  background-color:rgb(218, 91, 112);
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+/*centers all blocks of text in main*/
+main{
+  width: 400px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*all text styles*/
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 32px;
+  line-height: 5px;
+}
+
+h2{
+  font-family:'Times New Roman', Times, serif;
+  color:grey;
+  text-align: left;
+}
+
+h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 5px;
+}
+
+h1, h3, nav{
+  color:white;
+  text-align: center;
+}
+
+p, ol, ul{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 13px;
+}
+
+footer p{
+  text-align:center;
+}
+
+
+/*styles the border between sections*/
+hr{
+  height:2px;
+  background-color: rgb(170, 64, 82);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* link rollover colors*/
+a:link {color:white}
+a:visited {color:purple}
+a:hover {color:grey}
+a:active {color:black}
+
